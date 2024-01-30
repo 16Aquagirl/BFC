@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1 
+  {
+    color: rgb(251, 117, 14);
+    font-family: sans-serif;
+  }
+
+  .navbar {
+    background-color: #4c3228;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  i{
+    color: white;
+    padding: 20px;
+    font-size: 50px;
+  }
+
+  .logo-name{
+    font-size: 30px;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+  }
+
+  .content ul li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    font-size: 15px;
+  }
+
+  .content ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .content ul {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .btn {
+    width: 80px ;
+    height: 30px;
+    margin-top: 6px ;
+    margin-right: 10px;
+    font-weight: bold ;
+    border-radius: 10px ;
+    border: 1.5px solid #4c3228;
+    color: #4c3228;
+    font-size: 14px;
+  }
+
+  .btn:hover{
+    background-color:#4c3228;
+    border: 1.5px solid white;
+    color: white;
+    transition:0.80s;
+  }
+
+  .btn-nav{
+    margin-left: 400px;
+  }
+
+  .list{
+    margin-left: 300px;
+  }
+
+  .box-icon{
+    color: white;
+  }
+
+  /* home */
+  .bg-home{
+    background-image: url('./bg49.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 639px;
+}
+
+.home-heading{
+  padding: 200px;
+}
+
+  /* ================================================================== */
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* login */
+.bg-login{
+  background-image: url('./bgimg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 639px;
+  padding: 50px;
+}
+
+.main2{
+  padding: 50px;
+  /* margin-top: 20px; */
+}
+
+.dabba-log{
+  border: 5px solid black;
+  border-radius: 100px;
+  height: 350px;
+  width: 400px;
+  /* padding: 50px; */
+  margin-right: 800px;
+  /* background-color: white; */
+  /* padding: 50px; */
+}
+
+.input-log{
+  height: 28px;
+  width: 220px;
+  border-radius: 10px;
+  font-size: 15px;
+  /* border: none; */
+  font-weight: bolder;
+}
+
+.submit-log{
+  height: 28px;
+  width: 120px;
+  border-radius: 10px;
+  font-size: 15px;
+  /* background-color: transparent; */
+}
+
+.reg-h2{
+  color: red;
+}
+
+.select-option{
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+/* register */
+.reg-body{
+  background-image: url('./bgimg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 639px;
+}
+
+.reg-main{
+  /* background-color: white; */
+  border: 5px solid black;
+  border-radius: 100px;
+  height: 390px;
+  width: 400px;
+  padding: 50px;
+  margin-right: 800px;
+}
+
+.input{
+  height: 28px;
+  width: 220px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.submit{
+  height: 28px;
+  width: 120px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.dabba-reg{
+  padding: 50px;
+}
+
+.h1-reg{
+  color: black;
+}
+
+.login-now{
+  font-size: large;
+  font-weight: bolder;
+  color: red;
+}
+
+
+@keyframes move{
+    0%, 49.99%{
+        opacity: 0;
+        z-index: 1;
+    }
+    50%, 100%{
+        opacity: 1;
+        z-index: 5;
+    }
+}
+
+#stuinfo
+{
+    background-color: #765341;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    position: sticky;
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+}
+
+.logout-btn{
+  height: 30px;
+  width: 90px;
+  color: black;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-left: 1100px;
+}
+
+.logout-btn a{
+  color: red;
+}
+
+/* dashboard */
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    /* background-color: #a08679; */
+    background-color: #8b6c5c;
+    /* background-color: #765341; */
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .sidebar-icon1{
+    display: flex;
+  }
+
+  .sidebar-icon2{
+    display: flex;
+  }
+
+  .sidebar-icon3{
+    display: flex;
+  }
+
+  .sidebar-icon4{
+    display: flex;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 35px;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    /* background-color: white; */
+    /* color: black; */
+    color: white;
+  }
+  
+  div.content1 {
+    margin-left: 200px;
+    padding: 1px 16px;
+  }
+
+  .content1{
+    background-image: url("./bg53.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 569px;
+  }
+
+  .submit-stu{
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+  }
+
+  .textarea-stu{
+    /* border-radius: 20px; */
+    border: 2px solid black;
+  }
+
+  .comp-footer-img{
+    background-image: url("./footer3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 193px;
+  }
+
+  .comp-footer-mark{
+    color: white;
+    font-size: 150px;
+    margin-top: 86px;
+    margin-left: 1100px;
+    padding: 10px;
+  }
+
+  .help{
+    color: black;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  
+/* admin dashboard */
+ #adminmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #a08679; */
+    background-color: #8b6c5c;
+  }
+  
+  #adminmenu li {
+    float: left;
+    margin-left: 400px;
+  }
+  
+  #adminmenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* #adminmenu li a:hover {
+    background-color: #111;
+  } */
+
+  #adminname
+  {
+    padding: 20px;
+    background-color: #765341;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .admin-logout{
+    height: 30px;
+    width: 90px;
+    color: red;
+    border-radius: 10px;
+    font-size: 17px;
+  }
+
+.admin-head{
+  /* margin-left: 630px; */
+  height: 60px;
+  align-items: center;
+  text-align: center;
+  /* margin-top: 20px; */
+  background-color: #6a4a3a;
+}
+
+.content2{
+  background-image: url("./bg53.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 471px;
+}
+
+/* student profile */
+.profile-icon i{
+  font-size: 130px;
+}
+
+/* student change password */
+.change-pass{
+  margin-top: 90px;
+}
+
+.password{
+  height: 28px;
+  width: 220px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.btn-stu-pass{
+  height: 30px;
+  width: 90px;
+  border-radius: 20px;
+}
+
+/* loader */
+.loader-dash{
+  
+}

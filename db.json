@@ -1,0 +1,68 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Twinkle",
+      "email": "twinkle@gmail.com",
+      "password": "twinkle123"
+    },
+    {
+      "id": 2,
+      "name": "Harsh",
+      "email": "harsh@gmail.com",
+      "password": "123"
+    },
+    {
+      "name": "Mohit Solanki",
+      "email": "mohit@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "mayank athankar",
+      "email": "mayank@gmail.com",
+      "password": "123",
+      "id": 5
+    }
+  ],
+  "stucomplain": [
+    {
+      "id": 1,
+      "stuid": 11,
+      "complain": "internet not worrking",
+      "ans": "this is just test reply answer"
+    },
+    {
+      "stuid": 1,
+      "complain": "wifi problem",
+      "ans": "it will be fixed",
+      "id": 2
+    },
+    {
+      "stuid": 1,
+      "complain": "charger problem",
+      "ans": "",
+      "id": 3
+    },
+    {
+      "stuid": 5,
+      "complain": "wifi issue",
+      "ans": "this will be fixed",
+      "id": 4
+    }
+  ],
+  "adminuser": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "name": "Twinkle",
+      "email": "Twinkle@gmail.com",
+      "password": "admin2"
+    }
+  ]
+}
