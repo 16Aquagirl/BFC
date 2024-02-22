@@ -16,7 +16,7 @@ const StuPasswordChange = () => {
             if (res.data.password == oldpass) {
                 if (newpass == renewpass) {
                     axios.patch(url, { password: newpass }).then((res) => {
-                        alert("Password Succesfully Changed !! ");
+                        alert("Password Succesfully Changed !!! ");
                     });
                 }
                 else {

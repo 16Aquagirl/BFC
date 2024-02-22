@@ -22,11 +22,8 @@ const AdminDashboard = () => {
 
   return (
     <>
-      <div className="admin-head">
-        <h1 className="help"> Admin Dashboard</h1>
-      </div>
       <div id="adminname">
-        Welcome {adminName}!  <button className="admin-logout" onClick={adminLogout}> Logout </button>
+        <h2>Welcome {adminName}!</h2>
       </div>
       <div id="adminmenu">
         <ul>
@@ -35,6 +32,9 @@ const AdminDashboard = () => {
           </li>
           <li>
             <Link to="adminchnagepass">Change Password</Link>
+          </li>
+          <li>
+            <a href="#" onClick={adminLogout}> Logout </a>
           </li>
         </ul>
       </div>

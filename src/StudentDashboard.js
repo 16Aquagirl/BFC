@@ -19,10 +19,9 @@ const StudentDashboard = () => {
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
       </head>
       <div id="stuinfo">
-        <div className="wel">
+        <div>
           <h2>Welcome {stuName} !</h2>
         </div>
-        <div><button className="logout-btn"><a onClick={stuLogout}>Logout</a></button></div>
       </div>
 
 
@@ -32,6 +31,7 @@ const StudentDashboard = () => {
           <div className="sidebar-icon2"><i class='bx bxs-message-rounded-add' ></i><Link to="stucomplain"> Write Your Complain </Link></div>
           <div className="sidebar-icon3"><i class='bx bx-desktop' ></i><Link to="sturesponse"> Display Response </Link></div>
           <div className="sidebar-icon4"><i class='bx bxs-lock-open-alt'></i><Link to="stupassword"> Change Password</Link></div>
+          <div className="sidebar-icon4"><i class='bx bxs-log-out'></i><a href="#" onClick={stuLogout}>Logout</a></div>
         </div>
       </div>
 

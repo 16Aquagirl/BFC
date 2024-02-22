@@ -46,7 +46,7 @@ const SeeComplain = () => {
     <center>
       <h1 className="help"> Student Complaint List</h1>
       <br/><br/>
-      <table width="700" align="center" border="1" bgcolor="white">
+      <table width="900" align="center" border="1" bgcolor="white">
         <tr>
           <td> Sno</td>
           <td> Student Complain</td>
