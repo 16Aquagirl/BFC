@@ -13,7 +13,7 @@ const Bikes = () => {
                             <div class="detail">
                                 <h2>Royal Enfield Hunter 350</h2>
                                 <p>1,50,000-1,75,000</p>
-                                <button>View Details</button>
+                                <button><a href="./firstbike">View Details</a></button>
                             </div>
                         </div>
 
@@ -23,7 +23,7 @@ const Bikes = () => {
                             <div class="detail">
                                 <h2>KTM Rc 200</h2>
                                 <p>2,18,000</p>
-                                <button>View Details</button>
+                                <button><a href="./secondbike">View Details</a></button>
                             </div>
                         </div>
                         {/* <!-- third card --> */}
@@ -32,7 +32,7 @@ const Bikes = () => {
                             <div class="detail">
                                 <h2>Jawa Perak</h2>
                                 <p>2,14,000</p>
-                                <button>View Details</button>
+                                <button><a href="./thirdbike">View Details</a></button>
                             </div>
                         </div>
 
@@ -41,7 +41,7 @@ const Bikes = () => {
                             {/* <img>img</img> */}
                             <h2>name</h2>
                             <p>price</p>
-                            <button>View Details</button>
+                            <button><a href="./fourthbike">View Details</a></button>
                         </div>
 
                         {/* <!-- fifth card --> */}
@@ -49,7 +49,7 @@ const Bikes = () => {
                             {/* <img>img</img> */}
                             <h2>name</h2>
                             <p>price</p>
-                            <button>View Details</button>
+                            <button><a href="./fifthbike">View Details</a></button>
                         </div>
 
                         {/* <!-- sixth card --> */}
@@ -57,7 +57,7 @@ const Bikes = () => {
                             {/* <img>img</img> */}
                             <h2>name</h2>
                             <p>price</p>
-                            <button>View Details</button>
+                            <button><a href="./sixthbike">View Details</a></button>
                         </div>
                     </div>
                 </div>

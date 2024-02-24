@@ -19,6 +19,14 @@ import SeeStuAnswer from "./SeeStuAnswer";
 import StuProfile from "./StuProfile";
 import StuChangePassword from "./StuChangePassword";
 import Firstbike from "./Firstbike";
+import Secondbike from "./Secondbike";
+import Thirdbike from "./Thirdbike";
+import Fourthbike from "./Fourthbike";
+import Fifthbike from "./Fifthbike";
+import Sixthbike from "./Sixthbike";
+import Firstelectric from "./Firstelectric";
+import Secondelectric from "./Secondelectric";
+import Thirdelectric from "./Thirdelectric";
 
 const App = () => {
   return (
@@ -30,10 +38,28 @@ const App = () => {
             <Route path="home" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="registration" element={<Registration />} />
-            <Route path="bikes" element={<Bikes />} />
+            <Route path="/bikes" element={<Bikes />}>
+              <Route exact path="firstbike" element={<Firstbike />} />
+              <Route exact path="secondbike" element={<Secondbike />} />
+              <Route exact path="thirdbike" element={<Thirdbike />} />
+              <Route exact path="fourthbike" element={<Fourthbike />} />
+              <Route exact path="fifthbike" element={<Fifthbike />} />
+              <Route exact path="sixthbike" element={<Sixthbike />} />
+            </Route>
             <Route path="firstbike" element={<Firstbike />} />
-              {/* <Route exact path="firstbike" element={<Firstbike />} /> */}
-            <Route path="electric" element={<Electric />} />
+            <Route path="secondbike" element={<Secondbike />} />
+            <Route path="thirdbike" element={<Thirdbike />} />
+            <Route path="fourthbike" element={<Fourthbike />} />
+            <Route path="fifthbike" element={<Fifthbike />} />
+            <Route path="sixthbike" element={<Sixthbike />} />
+            <Route path="firstelectric" element={<Firstelectric />} />
+            <Route path="secondelectric" element={<Secondelectric />} />
+            <Route path="thirdelectric" element={<Thirdelectric />} />
+            <Route path="/electric" element={<Electric />} >
+              <Route exact path="firstelectric" element={<Firstelectric />} />
+              <Route exact path="secondelectric" element={<Secondelectric />} />
+              <Route exact path="thirdelectric" element={<Thirdelectric />} />
+            </Route>  
             <Route path="reviews" element={<Reviews />} />
             <Route path="contact" element={<Contact />} />
             <Route path="login" element={<Login />} />

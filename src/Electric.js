@@ -13,7 +13,7 @@ const Electric = () => {
                             {/* <img>img</img> */}
                             <h2>name</h2>
                             <p>price</p>
-                            <button>View Details</button>
+                            <button><a href="./firstelectric">View Details</a></button>
                         </div>
 
                         {/* <!-- second card --> */}
@@ -21,38 +21,14 @@ const Electric = () => {
                             {/* <img>img</img> */}
                             <h2>name</h2>
                             <p>price</p>
-                            <button>View Details</button>
+                            <button><a href="./secondelectric">View Details</a></button>
                         </div>
                         {/* <!-- third card --> */}
                         <div class="card-item">
                             {/* <img>img</img> */}
                             <h2>name</h2>
                             <p>price</p>
-                            <button>View Details</button>
-                        </div>
-
-                        {/* <!-- fourth card --> */}
-                        <div class="card-item">
-                            {/* <img>img</img> */}
-                            <h2>name</h2>
-                            <p>price</p>
-                            <button>View Details</button>
-                        </div>
-
-                        {/* <!-- fifth card --> */}
-                        <div class="card-item">
-                            {/* <img>img</img> */}
-                            <h2>name</h2>
-                            <p>price</p>
-                            <button>View Details</button>
-                        </div>
-
-                        {/* <!-- sixth card --> */}
-                        <div class="card-item">
-                            {/* <img>img</img> */}
-                            <h2>name</h2>
-                            <p>price</p>
-                            <button>View Details</button>
+                            <button><a href="./thirdelectric">View Details</a></button>
                         </div>
                     </div>
                 </div>

@@ -112,7 +112,7 @@ const Home = () => {
                                 <div class="detail">
                                     <h2>KTM Rc 200</h2>
                                     <p>2,18,000</p>
-                                    <button><a href="./login">View Details</a></button>
+                                    <button><a href="./secondbike">View Details</a></button>
                                 </div>
                             </div>
                             {/* <!-- third card --> */}
@@ -122,7 +122,7 @@ const Home = () => {
                                 <div class="detail">
                                     <h2>Jawa Perak</h2>
                                     <p>2,14,000</p>
-                                    <button><a href="./login">View Details</a></button>
+                                    <button><a href="./thirdbike">View Details</a></button>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +147,7 @@ const Home = () => {
                                 {/* <img>img</img> */}
                                 <h2>name</h2>
                                 <p>price</p>
-                                <button><a href="./login">View Details</a></button>
+                                <button><a href="./firstelectric">View Details</a></button>
                             </div>
 
                             {/* <!-- second card --> */}
@@ -155,14 +155,14 @@ const Home = () => {
                                 {/* <img>img</img> */}
                                 <h2>name</h2>
                                 <p>price</p>
-                                <button><a href="./login">View Details</a></button>
+                                <button><a href="./secondelectric">View Details</a></button>
                             </div>
                             {/* <!-- third card --> */}
                             <div class="card-item">
                                 {/* <img>img</img> */}
                                 <h2>name</h2>
                                 <p>price</p>
-                                <button><a href="./login">View Details</a></button>
+                                <button><a href="./thirdelectric">View Details</a></button>
                             </div>
                         </div>
                     </div>
